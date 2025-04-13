@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+void main() {
 
     std::string name;
 
@@ -8,5 +8,4 @@ int main() {
     std::cin >> name;
     std::cout << "Hello " << name << ", welcome to the game!" << std::endl;
 
-    return 0;
 }
