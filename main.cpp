@@ -1,11 +1,15 @@
 #include <iostream>
 
-void main() {
-
+int main() {
     std::string name;
 
     std::cout << "Hello Player what is your name?\n";
     std::cin >> name;
-    std::cout << "Hello " << name << ", welcome to the game!" << std::endl;
+    if (name == "Pedro") {
+        std::cout << "Nice Job! Me\n";
+    } else {
+        std::cout << "Hello " << name << ", welcome to the game!\n" << std::endl;
+    }
 
+    return 0;
 }
