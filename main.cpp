@@ -1,14 +1,18 @@
 #include <iostream>
 
+#include "Entites/Player.h"
+
 int main() {
-    std::string name;
+    Player player;
 
     std::cout << "Hello Player what is your name?\n";
-    std::cin >> name;
-    if (name == "Pedro") {
-        std::cout << "Nice Job! Me\n";
+    std::cin >> player.name;
+
+
+    if (player.name == "Pedro") {
+        std::cout << "Nice Job! Me\n" << "Your Current Health is " << player.currentHealth << "\n";
     } else {
-        std::cout << "Hello " << name << ", welcome to the game!\n" << std::endl;
+        std::cout << "Hello " << player.name << ", welcome to the game!\n" << std::endl;
     }
 
     return 0;
