@@ -15,11 +15,13 @@ public:
         std::cout << "Hello Player what is your name?\n";
         std::cin >> player.name;
 
-
-        if (player.name == "Pedro") {
-            std::cout << "Nice Job! Me\n" << "Your Current Health is " << player.currentHealth << "\n";
-        } else {
-            std::cout << "Hello " << player.name << ", welcome to the game!\n" << std::endl;
+        std::cout << "What would you like to do?\n";
+        std::cout << "Press 1 - Take 10 damage\n";
+        int action;
+        std::cin >> action;
+        if (action == 1) {
+            player.currentHealth = player.currentHealth - 10;
+            std::cout << "Your Health is now " << player.currentHealth;
         }
     }
 };
