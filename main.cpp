@@ -3,6 +3,6 @@
 #include "Core/Game.h"
 
 int main() {
-    Game::gameStart();
+    Game::start();
     return 0;
 }

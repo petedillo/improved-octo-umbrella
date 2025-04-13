@@ -9,7 +9,7 @@
 
 class Game {
 public:
-    static void gameStart() {
+    static void start() {
         Player player;
 
         std::cout << "Hello Player what is your name?\n";
