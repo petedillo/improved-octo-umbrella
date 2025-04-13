@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE Specific Files
+.idea
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.project
+*.cproject
+.settings/
+xcuserdata/
+
+# Build Directories
+build/
+cmake-build-debug/*
+cmake-build-release/
+cmake-build-minsizerel/
+cmake-build*/
+builddir/
+_build/
+CMakeFiles/
+CMakeCache.txt
+
+# Operating System Specific Files and Directories
+.DS_Store         # macOS folder metadata
+Thumbs.db        # Windows thumbnail cache
+ehthumbs.db      # Windows thumbnail cache
+Desktop.ini      # Windows desktop configuration
+/$RECYCLE.BIN/    # Windows Recycle Bin
+System Volume Information/ # Windows system information
+.Spotlight-V100/ # macOS Spotlight index
+.TemporaryItems/  # macOS temporary items
+.Trashes/         # macOS trash
+._* # macOS resource forks
