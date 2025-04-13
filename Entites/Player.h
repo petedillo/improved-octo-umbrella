@@ -10,8 +10,8 @@
 class Player {
     public:
         std::string name;
-        int currentHealth = 100;
         int maxHealth = 100;
+        int currentHealth = maxHealth;
 };
 
 
