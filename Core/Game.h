@@ -11,18 +11,19 @@ class Game {
 public:
     static void start() {
         Player player;
-
         std::cout << "Hello Player what is your name?\n";
         std::cin >> player.name;
-
-        std::cout << "What would you like to do?\n";
-        std::cout << "Press 1 - Take 10 damage\n";
-        int action;
-        std::cin >> action;
-        if (action == 1) {
-            player.currentHealth = player.currentHealth - 10;
-            std::cout << "Your Health is now " << player.currentHealth;
+        while (player.currentHealth > 0) {
+            std::cout << "What would you like to do?\n";
+            std::cout << "Press 1 - Take 10 damage\n";
+            int action;
+            std::cin >> action;
+            if (action == 1) {
+                player.currentHealth = player.currentHealth - 10;
+                std::cout << "Your Health is now " << player.currentHealth << "\n";
+            }
         }
+        std::cout << player.name << ", you lost all your health GG." << std::endl;
     }
 };
 
