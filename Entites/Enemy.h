@@ -1,15 +1,18 @@
+//
+// Created by Tom Silveri on 4/13/25.
+//
+
 #ifndef ENEMY_H
 #define ENEMY_H
 
 #include <string>
-#include <algorithm>
 
 class Enemy {
-public:
     std::string name;
-    int maxHealth = 10;
-    int currentHealth = 10;
-
+    int maxHealth = 100;
+    int currentHealth = 100;
 };
+
+
 
 #endif //ENEMY_H

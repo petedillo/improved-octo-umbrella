@@ -7,4 +7,8 @@ add_executable(game main.cpp
         Entites/Player.cpp
         Entites/Player.h
         Core/Game.cpp
-        Core/Game.h)
+        Core/Game.h
+        Entites/Items.cpp
+        Entites/Items.h
+        Entites/Enemy.cpp
+        Entites/Enemy.h)
