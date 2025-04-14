@@ -37,12 +37,11 @@ public:
 
             switch (action) {
                 case 1:
-                    player.currentHealth -= 10;
+                    player.takeDamage(10);
                     std::cout << "You took 10 damage. Current health: " << player.currentHealth << "\n";
                     break;
                 case 2:
-                    player.currentHealth += 10;
-                    if (player.currentHealth > player.maxHealth) player.currentHealth = player.maxHealth;
+                    player.heal(10);
                     std::cout << "You healed 10 health. Current health: " << player.currentHealth << "\n";
                     break;
                 case 3:
