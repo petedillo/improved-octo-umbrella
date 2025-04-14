@@ -12,6 +12,7 @@ class Player {
         std::string name;
         int maxHealth = 100;
         int currentHealth = maxHealth;
+        int level = 1;
 };
 
 
